@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaina 2';
+    /* font-family: 'Noto Nastaliq Urdu', serif; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#first-pro {
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    width: 20vw;
+    height: 25vw;
+    background-color: rgb(248, 247, 247);
+    border-radius: 1.2vw;
+    padding: 1.2vw;
+    text-align: center;
+}
+
+#card img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#card h1 {
+    font-size: 1.6vw;
+    margin: .5vw;
+    font-weight: 800;
+}
+
+#card h5 {
+    font-size: 1vw;
+    margin-bottom: .3vw;
+    color: red;
+
+}
+
+#card button {
+    background-color: cadetblue;
+    color: #fafafa;
+    font-weight: 700;
+    padding: .2vw 1vw;
+    border-radius: .5vw;
+    border: none;
+    margin: .3vw;
+    cursor: pointer;
+}
+
+/* #second-project */
+
+#second-pro {
+    width: 100%;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    position: relative;
+    padding: 1.2vw;
+    width: 20vw;
+    height: 30vw;
+    border-radius: 1.2vw;
+    background-color: #fff;
+}
+
+#container img {
+    border-radius: 1.2vw;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#container i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fafafa;
+    font-size: 3.8vw;
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+    transition: transform ease .3s;
+}
+
+#container #he1 {
+    font-size: 2vw;
+    color: #f33838;
+    transform: scale(0);
+    opacity: 0;
+    top: 92%;
+    left: 10%;
+    transition: transform ease .2s;
+
+}
+
+#container #he2 {
+    font-size: 2vw;
+    color: #0e0d0d;
+    transform: scale(1);
+    opacity: 1;
+    top: 92%;
+    left: 10%;
+
+}
+
+/* third project */
+
+#third-pro {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#third-pro h1 {
+    font-size: 5vw;
+    font-weight: 500;
+
+}
+
+.cursor {
+    width: 1.4vw;
+    height: 1.4vw;
+    border-radius: 50%;
+    background-color: #b2e302df;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear .4s;
+}
+
+/* fourth project */
+
+#forth-pro {
+    padding-top: 7.5vw;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 32, 33);
+    /* position: relative; */
+}
+
+.elem {
+   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 7vw;
+    border-bottom: 2px solid white;
+    /* cursor: pointer; */
+}
+
+.elem h1 {
+    position: relative;
+    mix-blend-mode: difference;
+    z-index: 9;
+    color: white;
+    font-size: 5vw;
+    font-weight: 400;
+}
+
+.elem img {
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    opacity: 0;
+    transition: all ease .2s;
+}
+#elem1{
+    border-top: 2px solid white;
+}
+
+/* fifth Project */
+
+#fifth-pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(12, 63, 65);
+}
+.card{
+    border: 3px solid black;
+    position: absolute;
+    width: 20vw;
+    height: 30vw;
+    background-color: #fff;
+    border-radius: .5vw;
+    overflow: hidden;
+}
+
+.storiyan{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: .5vw .7vw;
+    width: 100%;
+    height: 6vw;
+    /* background-color: red; */
+}
+.storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    margin-right: .5vw;
+    overflow: hidden;
+    /* gap: .2vw; */
+    display: inline-block;
+    width: 5vw;
+    height:5vw;
+    border-radius:50%;
+    border: 2.5px solid rebeccapurple;
+}
+
+.story img{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    object-position: center;
+}
+
+.full-screen{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    display: none;
+}
